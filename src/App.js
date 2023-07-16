@@ -1,74 +1,71 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar';
 
 function App() {
   return (
     <div className="App">
-      <section class="header-section">
-        <div>    |עלינו</div>
-        <div>|בחירת תאריך</div>
-        <div>לוגו </div>
-      </section>
-      <section class="intro">
-        <div class="container-into-text">
-          <div class="text">
+      <Navbar />
+      <section className="intro">
+        <div className="container-into-text">
+          <div className="text">
             ברוכים הבאים לאתר
-            <span class="Bria-name">
-            &nbsp; בריאה
+            <span className="Bria-name">
+              &nbsp; בריאה
             </span>
-            <br/>
-            <br/>
+            <br />
+            <br />
             מתחם נופש ברמת הגולן במיוחד בשבילכם
           </div>
         </div>
       </section>
-      <div class="about">
+      <div className="about">
         הצימר ממוקם בחווה גלילית ברמת הגולן, במקום פסטורלי ונעים לחוויה מדהימה עבורכם
-        <br/>
+        <br />
         יש לנו צימרים לכל המשפחה, לזוגות במיוחד עבור הנאה מיטבית עבורכם
-        <br/>
+        <br />
         הצימרים מאובזרים במחבתות, כלים על מנת לחוות הרגשה ביתית ככל האפשר תוך אווירת טבע ורוגע שלא הכרתם
       </div>
 
       <img src="" alt="" />
       <section className="gallery">
         <div className="gallery-item">
-          <img src={require('./assets/images/img1.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img1.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img2.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img2.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img3.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img3.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img4.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img4.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img5.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img5.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img6.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img6.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img1.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img1.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img2.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img2.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img3.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img3.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img4.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img4.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img5.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img5.jpg')} className="gallery-img" />
         </div>
         <div className="gallery-item">
-          <img src={require('./assets/images/img6.jpg')} onclick="enlargeImg()" className="gallery-img" />
+          <img src={require('./assets/images/img6.jpg')} className="gallery-img" />
         </div>
-        
+
       </section>
       <script src="./index.js"></script>
 
